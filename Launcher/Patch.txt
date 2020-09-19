@@ -1,3 +1,7 @@
 Patch Notes:
 
-This Is The Initial Release There Will Be Way More Patches
++ Fixed Files Deleting When They Were Invalid(Modding)
+
++Templates - This is for people who are interested in using something better than the default Template You Can Change Your Template By Drag and Drop on the Mod Maker Panel(Pencil Icon)
+
+Update Date: 9/18/20

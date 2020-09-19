@@ -1,0 +1,82 @@
+<Log> 
+ ====== 
+Booting Up Launcher....
+======
+<Log> 
+ ====== 
+Could Not Find Repo Folder, Doesn't Own VS? 
+Hover over Repo In Mod Maker(Pencil Icon)
+======
+<Log> 
+ ====== 
+Could Not Find Fast and Low... 
+Booting Up Fast and Low Finder
+======
+<Log> 
+ ====== 
+Disabling The Fast and Low Finder
+======
+<Log> 
+ ====== 
+Error Finished
+======
+<Log> 
+ ====== 
+Events Completed
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Images\Patched.png
+======
+<Log> 
+ ====== 
+Game Patched
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Images\Home.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Images\ArrowUp.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Images\HomePage.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Images\ModsPage.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Images\ModMaker.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Images\SettingsPage.png
+======
+<Log> 
+ ====== 
+Finished Start
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Images\CloseTrash.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Images\Mods.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Images\RefreshPage.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Images\Folder.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Images\Forward.png
+======
