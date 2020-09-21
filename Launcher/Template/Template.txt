@@ -12,18 +12,19 @@ namespace LowModding
 
         public override void LoadMod()
         {
-            int random = new System.Random().Next(0, 100);
-            ModdedGameObject = new GameObject("DummyObject" + random.ToString()).AddComponent<Mod>().gameObject;
+            ModdedGameObject = new GameObject("MODNAME").AddComponent<Mod>().gameObject;
             base.LoadMod();
         }
     }
 
     public class Mod : MonoBehaviour
     {
+        //Called When Object Is Created (Scene Load)
         private void Start()
         {
         }
 
+        //Called Every Frame
         private void Update()
         {
         }

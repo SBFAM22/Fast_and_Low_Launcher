@@ -1,5 +1,5 @@
 Patch Notes:
 
-+Settings(See Tutorials)
++ Added Settings
 
 Update Date: 9/18/20
