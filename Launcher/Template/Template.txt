@@ -9,21 +9,23 @@ namespace LowModding
     public class ModEntry : EntryMod
     {
         public static GameObject ModdedGameObject { get; set; }
-
+         
+        //Called On Scene Load
         public override void LoadMod()
         {
-            int random = new System.Random().Next(0, 100);
-            ModdedGameObject = new GameObject("DummyObject" + random.ToString()).AddComponent<Mod>().gameObject;
+            ModdedGameObject = new GameObject("DummyObject").AddComponent<Mod>().gameObject;
             base.LoadMod();
         }
     }
 
     public class Mod : MonoBehaviour
     {
+        //Called When Object Is Created(Awake is before Start)
         private void Start()
         {
         }
-
+      
+        //Called Every Frame
         private void Update()
         {
         }
