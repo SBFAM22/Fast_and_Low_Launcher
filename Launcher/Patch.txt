@@ -1,7 +1,5 @@
 Patch Notes:
 
-+ Fixed Files Deleting When They Were Invalid(Modding)
++Settings Added (Check Tutorials On Changing and Use)
 
-+Templates - This is for people who are interested in using something better than the default Template You Can Change Your Template By Drag and Drop on the Mod Maker Panel(Pencil Icon)
-
-Update Date: 9/18/20
+Update Date: 9/21/20
