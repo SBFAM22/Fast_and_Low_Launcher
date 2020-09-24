@@ -1,5 +1,9 @@
 Patch Notes:
 
-+ Added Settings
++Added A Settings Tab For Mods 
+  ++You Can Edit Your Jsons From Here and Save Them!
 
-Update Date: 9/18/20
++Custom Title Bar!!!
+  ++I made This With Love
+
+Update Date: 9/24/20
