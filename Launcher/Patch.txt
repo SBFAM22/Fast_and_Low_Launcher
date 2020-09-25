@@ -1,9 +1,18 @@
 Patch Notes:
 
-+Added A Settings Tab For Mods 
-  ++You Can Edit Your Jsons From Here and Save Them!
++Settings
+ ++Fixed Glitch With Settings
+ ++Add Close Button To Settings So You Don't Always Have To Save
+ ++Saving Does Not Close The Settings Panel
 
-+Custom Title Bar!!!
-  ++I made This With Love
++Templates
+ ++Templates Have Been Overhauled with their own page!
+ ++Templates can be dragged and drop right onto the template page! (Follow The Format For The Given Template!)
 
-Update Date: 9/24/20
++Title Bar
+ ++ Title Bar New Closing Icon
+
++Ads
+ +At The Bottom You Will See A Few Adds (Discord(Fast and Low Modding) YouTube(My YT Page) Bone(Opens BoneTomes.com))
+
+Update Date: 9/25/20
