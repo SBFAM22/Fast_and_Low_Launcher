@@ -1,5 +1,12 @@
 Patch Notes:
 
++Mods Panel
+ ++Allows You To Disable Mods
+ ++ Off -- Low -- Med -- High -- Imp (Click To Toggle)
+
+Update Date: 9/27/20
+________________________________________________________________________________
+
 +Templates
  ++If A Template You Were Using Is Missing It Will Use The Next Template
 
