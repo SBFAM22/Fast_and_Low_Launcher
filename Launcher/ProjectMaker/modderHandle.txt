@@ -1,0 +1,11 @@
+setlocal
+echo "Moving Your Mod For You -BIGDummyHead"
+
+SET modFolder=###MODDLLNEWPLACE###.dll
+SET dllLocation=###MODDLL###.dll
+SET dllName=###MODDLLNAME###.dll
+
+move "%dllLocation%" "%modFolder%"
+
+echo "%dllName% Was Moved To %modFolder%!"
+endlocal

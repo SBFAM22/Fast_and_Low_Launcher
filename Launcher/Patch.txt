@@ -1,10 +1,27 @@
 Patch Notes:
 
++Template Panel
+ ++Template Panel Got Bigger Picture/Desc/Title Room
+
++Settings Panel
+ --Removed Mute Button
+ ++Added Volume Bar!
+
++Audio
+ ++Audio Can Now Be Adjusted
+ ++Audio Is Registered Better!
+
++Icons
+ ++Some New Icons!
+
+Update Date: 9/29/20
+________________________________________________________________________________
+
 +Mods Panel
  ++Allows You To Disable Mods
  ++ Off -- Low -- Med -- High -- Imp (Click To Toggle)
 
-Update Date: 9/27/20
+Update Date: 9/26/20
 ________________________________________________________________________________
 
 +Templates
