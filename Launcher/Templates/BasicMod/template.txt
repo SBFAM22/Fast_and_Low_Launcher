@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using DummyLoader.Modding;
 using static DummyLoader.Modding.VRInput;
@@ -5,32 +6,27 @@ using static DummyLoader.Modding.ModUtilities;
 
 namespace LowModding
 {
-    //Do Not Change The Class NAME and Do NOT CHANGE EntryMod Inheritance
-    //Every Other Class Can Be Customized, to do add components to gameObjects
     public class ModEntry : EntryMod
     {
-        //Static Gameobject, this gameobject can be accessed from all classes
         public static GameObject ModdedGameObject { get; set; }
 
         public override void LoadMod()
         {
-            //Make A New GameObject and Apply our Component
-            ModdedGameObject = new GameObject("PLACE_NAME_HERE").AddComponent<Mod>().gameObject;
+            ModdedGameObject = new GameObject("MODNAME").AddComponent<Mod>().gameObject;
             base.LoadMod();
         }
     }
 
-    //The Component Our Gameobject Will Put On
     public class Mod : MonoBehaviour
     {
+        //Called When Object Is Created (Scene Load)
         private void Start()
         {
-            //Called On Scene Load
         }
 
+        //Called Every Frame
         private void Update()
         {
-            //Called Every Frame
         }
     }
 }
