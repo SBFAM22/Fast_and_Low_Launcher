@@ -7,6 +7,7 @@ Patch Notes:
 Hello All I Just Wanted To Say Thank You For Enjoying The Launcher!
 
 +Quick Update
+
  ++Animations Updated Very Swift Now
 
 +Console Setting Update, Helps With People Switching Launcher Versions!
