@@ -1,5 +1,12 @@
 Patch Notes:
 
++DummyLoader Updated 
+ +Bundle Loading / Texture Loading / Better Settings Management / Mod mod Struct
+
+Update Date: 10/16/20
+________________________________________________________________________________
+
+
 Hello All I Just Wanted To Say Thank You For Enjoying The Launcher!
 
 +Quick Update

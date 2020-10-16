@@ -10,14 +10,14 @@ namespace LowModding
     {
         public static GameObject ModdedGameObject { get; set; }
 
-        public override void LoadMod()
+        public override void LoadMod(Mod mod)
         {
             ModdedGameObject = new GameObject("MODNAME").AddComponent<Mod>().gameObject;
             base.LoadMod();
         }
     }
 
-    public class Mod : MonoBehaviour
+    public class CustomMod : MonoBehaviour
     {
         //Called When Object Is Created (Scene Load)
         private void Start()
