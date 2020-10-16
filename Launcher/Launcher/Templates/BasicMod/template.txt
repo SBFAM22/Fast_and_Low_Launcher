@@ -12,8 +12,8 @@ namespace LowModding
 
         public override void LoadMod(Mod mod)
         {
-            ModdedGameObject = new GameObject("MODNAME").AddComponent<Mod>().gameObject;
-            base.LoadMod();
+            base.LoadMod(mod);
+            ModdedGameObject = new GameObject("MODNAME").AddComponent<CustomMod>().gameObject;
         }
     }
 
