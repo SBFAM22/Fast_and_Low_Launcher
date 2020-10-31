@@ -36,29 +36,29 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>D:\SteamLibrary\steamapps\common\Fast and Low\FastandLow_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>###CUSTOMPATH###\FastandLow_Data\Managed\FnL_Assembly.dll</HintPath>
     </Reference>
     <Reference Include="TextMeshPro-2017.3-Runtime">
-      <HintPath>D:\SteamLibrary\steamapps\common\Fast and Low\FastandLow_Data\Managed\TextMeshPro-2017.3-Runtime.dll</HintPath>
+      <HintPath>###CUSTOMPATH###\FastandLow_Data\Managed\TextMeshPro-2017.3-Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>D:\SteamLibrary\steamapps\common\Fast and Low\FastandLow_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>###CUSTOMPATH###\FastandLow_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
-      <HintPath>D:\SteamLibrary\steamapps\common\Fast and Low\FastandLow_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>###CUSTOMPATH###\FastandLow_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>D:\SteamLibrary\steamapps\common\Fast and Low\FastandLow_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>###CUSTOMPATH###\FastandLow_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="DummyLoader, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>D:\SteamLibrary\steamapps\common\Fast and Low\DummyLoader.dll</HintPath>
+      <HintPath>###CUSTOMPATH###\DummyLoader.dll</HintPath>
     </Reference>
     <Reference Include="PhotonUnityNetworking, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>D:\SteamLibrary\steamapps\common\Fast and Low\FastandLow_Data\Managed\PhotonUnityNetworking.dll</HintPath>
+      <HintPath>###CUSTOMPATH###\FastandLow_Data\Managed\PhotonUnityNetworking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>D:\SteamLibrary\steamapps\common\Fast and Low\Fast and Low\FastandLow_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>###CUSTOMPATH###\FastandLow_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -1,5 +1,15 @@
 Patch Notes:
 
++Sorry For The Long Wait, I had to take a mental day off or two, school, a new job, and making this game moddable can be hard sometimes!
+
++Registering Bundles, Textures, and now audio have been name changed, this is mainly because I felt like the names did not fit!
+ ++ RegisterAudio and Get Audio Have Also Been Added To The Patch As Well So Enjoy I want to see what you can do!
+
++Fixed A Mod Making Issue, not to worry it is now fixed.
+
+Update Date: 10/30/20
+________________________________________________________________________________
+
 +DummyLoader Updated 
  +Bundle Loading / Texture Loading / Better Settings Management / Mod mod Struct
 
