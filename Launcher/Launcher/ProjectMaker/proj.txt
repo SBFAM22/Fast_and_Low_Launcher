@@ -52,7 +52,7 @@
     </Reference>
     <Reference Include="DummyLoader, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>###CUSTOMPATH###\DummyLoader.dll</HintPath>
+      <HintPath>###CUSTOMPATH###\DummyLoaderMAIN\DummyLoader.dll</HintPath>
     </Reference>
     <Reference Include="PhotonUnityNetworking, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>###CUSTOMPATH###\FastandLow_Data\Managed\PhotonUnityNetworking.dll</HintPath>

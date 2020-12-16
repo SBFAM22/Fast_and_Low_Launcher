@@ -1,5 +1,18 @@
 Patch Notes:
 
++Hey all this may be the final update for the launcher!
+ +The launcher will basically allow you to patch it for every update that Fast and Low will release
+
++Method Name Change
+ +LoadMod(Mod mod) = Load(Mod mod)
+ +UnLoadMod() = Unload()
+
++Type Name Change
+ +EntryMod = Entry
+
+Update Date: 12/16/2020
+________________________________________________________________________________
+
 +Sorry For The Long Wait, I had to take a mental day off or two, school, a new job, and making this game moddable can be hard sometimes!
 
 +Registering Bundles, Textures, and now audio have been name changed, this is mainly because I felt like the names did not fit!

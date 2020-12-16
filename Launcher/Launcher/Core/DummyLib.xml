@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DummyLib</name>
+    </assembly>
+    <members>
+        <member name="T:DummyLib.ClassTarget">
+            <summary>
+            A Class Target made for targeting specific Class Targets
+            </summary>
+        </member>
+        <member name="P:DummyLib.ClassTarget.NamespaceWithClass">
+            <summary>
+            The namespace with the said class:
+            <para>Debug.Log</para>
+            </summary>
+        </member>
+        <member name="M:DummyLib.ClassTarget.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="namespaceWithClass"></param>
+        </member>
+        <member name="T:DummyLib.IMethodInsert">
+            <summary>
+            An insertable method
+            </summary>
+        </member>
+        <member name="M:DummyLib.IMethodInsert.InsertableMethod">
+            <summary>
+            The insertable method
+            </summary>
+        </member>
+        <member name="T:DummyLib.IVariable`1">
+            <summary>
+            A Variable Known As A Field/Property
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:DummyLib.IVariable`1.Name">
+            <summary>
+            The name of the variable
+            </summary>
+        </member>
+        <member name="P:DummyLib.IVariable`1.IsProperty">
+            <summary>
+            Is the variable a property?
+            </summary>
+        </member>
+        <member name="P:DummyLib.IVariable`1.IsField">
+            <summary>
+            Is the variable a field?
+            </summary>
+        </member>
+        <member name="T:DummyLib.MethodTarget">
+            <summary>
+            Sets A Method As A Target to Input Code With AssemblyWriter
+            </summary>
+        </member>
+        <member name="P:DummyLib.MethodTarget.NamespaceWithClass">
+            <summary>
+            The namespace with class as so:
+            <para>Debug.Log</para>
+            </summary>
+        </member>
+        <member name="P:DummyLib.MethodTarget.MethodName">
+            <summary>
+            The method name
+            </summary>
+        </member>
+        <member name="P:DummyLib.MethodTarget.MethodArgs">
+            <summary>
+            The method's arguments
+            <para> new <see cref="T:System.Type"/>[] { typeof(<seealso cref="T:System.String"/>) }  </para>
+            </summary>
+        </member>
+        <member name="P:DummyLib.MethodTarget.MethodDefArgs">
+            <summary>
+            The method's arguments as in <see cref="T:dnlib.DotNet.TypeDef"/>
+            </summary>
+        </member>
+        <member name="P:DummyLib.MethodTarget.IsStatic">
+            <summary>
+            Is the method static?
+            </summary>
+        </member>
+        <member name="M:DummyLib.MethodTarget.#ctor(System.String,System.String,System.Boolean,System.Type[])">
+            <summary>
+            
+            </summary>
+            <param name="namespaceWithClass"></param>
+            <param name="methodName"></param>
+            <param name="isStatic"></param>
+            <param name="methodTypeArguments"></param>
+        </member>
+        <member name="M:DummyLib.MethodTarget.#ctor(System.String,System.String,System.Boolean,dnlib.DotNet.TypeDef[])">
+            <summary>
+            
+            </summary>
+            <param name="namespaceWithClass"></param>
+            <param name="methodName"></param>
+            <param name="isStatic"></param>
+            <param name="methodTypeArguments"></param>
+        </member>
+        <member name="T:DummyLib.AssemblyWriter">
+            <summary>
+            A Writer that writes to assemblies 
+            </summary>
+        </member>
+        <member name="P:DummyLib.AssemblyWriter.DifferentOutput">
+            <summary>
+            Should the <see cref="T:System.Reflection.Assembly"/> be written to a different File?
+            </summary>
+        </member>
+        <member name="P:DummyLib.AssemblyWriter.BackUpFile">
+            <summary>
+            Make a backup of <see cref="P:DummyLib.AssemblyWriter.TargetFile"/>
+            </summary>
+        </member>
+        <member name="P:DummyLib.AssemblyWriter.ThrowInternalErrors">
+            <summary>
+            Should the methods called throw errors retaining on what you are doing?
+            </summary>
+        </member>
+        <member name="P:DummyLib.AssemblyWriter.TargetFile">
+            <summary>
+            The target file
+            </summary>
+        </member>
+        <member name="M:DummyLib.AssemblyWriter.#ctor(System.String,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            A Constructor Of The <see cref="T:DummyLib.AssemblyWriter"/> Class
+            </summary>
+            <param name="differentOutput"></param>
+            <param name="backUpFile"></param>
+            <param name="throwInternalErrors"></param>
+            <param name="targFile"></param>
+        </member>
+        <member name="M:DummyLib.AssemblyWriter.AddBodyToMethod(DummyLib.MethodTarget,DummyLib.IMethodInsert)">
+            <summary>
+            Adds the body of <see cref="M:DummyLib.IMethodInsert.InsertableMethod"/> onto the body of <seealso cref="T:DummyLib.MethodTarget"/> <paramref name="target"/>
+            </summary>
+            <param name="target"></param>
+            <param name="insertMethod"></param>
+        </member>
+        <member name="M:DummyLib.AssemblyWriter.CallMethod(DummyLib.MethodTarget,DummyLib.MethodTarget)">
+            <summary>
+            Call a method from an already existing method
+            </summary>
+            <param name="target"></param>
+            <param name="insertMethod"></param>
+        </member>
+        <member name="M:DummyLib.AssemblyWriter.AddMethod(DummyLib.ClassTarget,DummyLib.IMethodInsert,System.String,dnlib.DotNet.MethodAttributes)">
+            <summary>
+            Adds a method to a specified <see cref="T:DummyLib.ClassTarget"/>
+            </summary>
+            <param name="target"></param>
+            <param name="insertMethod"></param>
+            <param name="nameChange"></param>
+            <param name="methodAtts"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DummyLib.AssemblyWriter.ReplaceMethod(DummyLib.MethodTarget,DummyLib.MethodTarget)">
+            <summary>
+            Replaces a whole methods body with another method inside of the targets class!
+            </summary>
+            <param name="newMethod"></param>
+            <param name="mehodToReplace"></param>
+        </member>
+        <member name="M:DummyLib.AssemblyWriter.ReplaceMethod(DummyLib.MethodTarget,DummyLib.IMethodInsert)">
+            <summary>
+            Replaces a method with an <see cref="M:DummyLib.IMethodInsert.InsertableMethod"/>; Body
+            </summary>
+            <param name="newMethod"></param>
+            <param name="methodToReplace"></param>
+        </member>
+        <member name="M:DummyLib.AssemblyWriter.AddVariable``1(DummyLib.VariableTarget,DummyLib.IVariable{``0})">
+            <summary>
+            Adds a variable("Property" and or "Field") to a class target
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="target"></param>
+            <param name="variableToAdd"></param>
+        </member>
+        <member name="T:DummyLib.Field`1">
+            <summary>
+            A Field Uses The <see cref="T:DummyLib.IVariable`1"/> and Can Be Used With <seealso cref="T:DummyLib.AssemblyWriter"/>
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:DummyLib.Field`1.Name">
+            <summary>
+            The name of the Field
+            </summary>
+        </member>
+        <member name="M:DummyLib.Field`1.#ctor(System.String)">
+            <summary>
+            A Field CTOR that sets the name
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="P:DummyLib.Field`1.IsProperty">
+            <summary>
+            Always Returns False Under <see cref="T:DummyLib.Field`1"/>
+            </summary>
+        </member>
+        <member name="P:DummyLib.Field`1.IsField">
+            <summary>
+            Always Returns True Under <see cref="T:DummyLib.Field`1"/>
+            </summary>
+        </member>
+        <member name="F:DummyLib.Field`1.Value">
+            <summary>
+            The value, not meant to be touched
+            </summary>
+        </member>
+        <member name="T:DummyLib.Property`1">
+            <summary>
+            A Property To Be Passed To <see cref="T:DummyLib.AssemblyWriter"/>
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:DummyLib.Property`1.Name">
+            <summary>
+            The name of the property
+            </summary>
+        </member>
+        <member name="M:DummyLib.Property`1.#ctor(System.String)">
+            <summary>
+            A Property To Be Passed To <see cref="T:DummyLib.AssemblyWriter"/>
+            </summary>
+        </member>
+        <member name="M:DummyLib.Property`1.#ctor">
+            <summary>
+            Should be used for inheritance purposes
+            </summary>
+        </member>
+        <member name="M:DummyLib.Property`1.Setter">
+            <summary>
+            The method that will be called when the property is Set
+            <para>If you want the setter to be empty do " throw <see cref="T:System.NotImplementedException"/>("EMPTY"); " </para>
+            </summary>
+        </member>
+        <member name="M:DummyLib.Property`1.Getter">
+            <summary>
+            The method that will be called when the property is Get
+            <para>If you want the getter to be empty do " throw <see cref="T:System.NotImplementedException"/>("EMPTY"); " </para>
+            </summary>
+        </member>
+        <member name="P:DummyLib.Property`1.IsProperty">
+            <summary>
+            Returns True If This Is A Property
+            </summary>
+        </member>
+        <member name="P:DummyLib.Property`1.IsField">
+            <summary>
+            Returns True If This Is A Field
+            </summary>
+        </member>
+        <member name="P:DummyLib.Property`1.Value">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:DummyLib.VariableTarget">
+            <summary>
+            A Target for A Variable
+            </summary>
+        </member>
+        <member name="P:DummyLib.VariableTarget.NamespaceWithClass">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:DummyLib.VariableTarget.IsStatic">
+            <summary>
+            False By Default
+            </summary>
+        </member>
+        <member name="M:DummyLib.VariableTarget.#ctor(System.String,System.Boolean)">
+            <summary>
+            A Target for A Variable
+            </summary>
+            <param name="namespaceWithClass"></param>
+            <param name="staticVariable"></param>
+        </member>
+        <member name="M:DummyLib.VariableTarget.#ctor(System.String)">
+            <summary>
+            A Target for A Variable
+            </summary>
+            <param name="namespaceWithClass"></param>
+        </member>
+    </members>
+</doc>

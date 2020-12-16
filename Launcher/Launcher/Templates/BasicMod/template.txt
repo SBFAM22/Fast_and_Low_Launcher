@@ -3,23 +3,25 @@ using UnityEngine;
 using DummyLoader.Modding;
 using static DummyLoader.Modding.VRInput;
 using static DummyLoader.Modding.ModUtilities;
+using static UnityEngine.Object;
 
 namespace LowModding
 {
-    public class ModEntry : EntryMod
+    public class ModEntry : Entry
     {
         public static GameObject ModdedGameObject { get; set; }
 
-        public override void LoadMod(Mod mod)
+        public override void Load(Mod mod)
         {
-            base.LoadMod(mod);
+            base.Load(mod);
             ModdedGameObject = new GameObject("MODNAME").AddComponent<CustomMod>().gameObject;
+            DontDestroyOnLoad(ModdedGameObject);
         }
     }
 
     public class CustomMod : MonoBehaviour
     {
-        //Called When Object Is Created (Scene Load)
+        //Called When Object Is Created 
         private void Start()
         {
         }
