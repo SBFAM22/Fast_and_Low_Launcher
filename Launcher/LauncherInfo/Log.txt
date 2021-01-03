@@ -1,0 +1,98 @@
+<Log> 
+ ====== 
+Currently In Directory: C:\Users\shawn\source\repos\FastAndLowLauncherSol\FastAndLowLauncher\bin\Debug
+======
+<Log> 
+ ====== 
+Booting Up Launcher....
+======
+<Log> 
+ ====== 
+Could Not Find Repo Folder, Doesn't Own VS? 
+Hover over Repo In Mod Maker(Pencil Icon)
+======
+<Log> 
+ ====== 
+Could Not Find Fast and Low... 
+Booting Up Fast and Low Finder
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Launcher\Images\\ArrowUp.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Launcher\Images\Youtube.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Launcher\Images\Discord.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Launcher\Images\BoneTomeIcon.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Launcher\Images\TemplateIcon.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Launcher\Images\Quit.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Launcher\Images\Play.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Launcher\Images\Minimizer.png
+======
+<Log> 
+ ====== 
+Disabling The Fast and Low Finder
+======
+<Log> 
+ ====== 
+Error Finished
+======
+<Log> 
+ ====== 
+Events Completed
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Launcher\Images\Patched.png
+======
+<Log> 
+ ====== 
+Game Patched
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Launcher\Images\Home.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Launcher\Images\ArrowUp.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Launcher\Images\HomePage.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Launcher\Images\ModsPage.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Launcher\Images\ModMaker.png
+======
+<Log> 
+ ====== 
+Icon or Background Loaded | Launcher\Images\SettingsPage.png
+======
+<Log> 
+ ====== 
+Finished Start
+======
